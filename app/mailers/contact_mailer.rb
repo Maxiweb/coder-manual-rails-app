@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-    default to: 'mmax@hotmail.co.ukgi'
+    default to: 'mmax@hotmail.co.uk'
     
     
     def contact_email(name, email, body)
