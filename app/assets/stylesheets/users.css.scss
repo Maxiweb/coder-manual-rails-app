@@ -1,3 +1,9 @@
+/* Users Show Page Styles */
+.user-show-avatar {
+  height: 128px;
+  width: 128px;
+}
+
 .job-title-icon {
   display: inline-block;
   width: 30px;
@@ -16,6 +22,13 @@
   }
 }
 
+.col-md-3.text-center {
+    border-radius: 50%;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
 .well.profile-description {
   background-color: #5cb85c;
   border-color: #4cae4c;
@@ -26,9 +39,11 @@
   border-color: #46b8da;
 }
 
-.col-md-3.text-center {
-    border-radius: 50%;
-    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+/* Users Index Page Styles */
+.user-index-avatar {
+  border-radius: 50%;
+}
+
+.well.white-bg {
+  background-color: white;
 }
